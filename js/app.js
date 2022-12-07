@@ -12,4 +12,5 @@ btnEl.addEventListener('click', function(evt){
   li.textContent = inpEl.value
   console.dir(inpEl);
   document.querySelector('ul').appendChild(li)
-})
+  }
+)
