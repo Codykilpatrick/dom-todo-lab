@@ -10,7 +10,7 @@ btnEl.addEventListener('click', function(evt){
   const li = document.createElement('li')
   const inpEl = document.querySelector('input')
   li.textContent = inpEl.value
-  console.dir(inpEl);
   document.querySelector('ul').appendChild(li)
+  inpEl.value = ""
   }
 )
